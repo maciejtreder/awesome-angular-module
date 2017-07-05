@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: contact@maciejtreder.com
+  api_key:
+    secure: nw+s0bEh+TRqdQtGrwIwqEc8Q0dAZ7f8YAr0aeST5FvSaH9JuvxqkNb1bOFdMEHuzbjECE7TNs7gEm8ScITX7SBoXyuVorkGxIYmkNKBetOxJAMuWZHTql+kzCKxXxI6EfUKheWFk+YhG+r68V20XYW0oMv/WtxbeUTdWneqemXydx0diqahgwoh0AR3xueZY42TDyOrFkosIHHUQWHat4NueTF05kEtMbJZYI7pLQ9q69WiTbYKXdTiXaQZ4wtr++sqEYEoC487KaMIY2XJEC4WW00ytB5G5clmlosWuvEaaVWjywGWHJ6B34rwgfWsrYDz2/U1kfJCASkXQPmlLg1obrgTp/dx7igiuGmNAQmowOGnAoHXe9E+Mv+/uJdBAnZxvvke7CYn8OCfSoOdpKKgASPcRO3pMecFMe09uny8F0cK31D25fh5QXlDynaz0MfT0J+DFLoMk1oCdR9g28Wv4vt0DPoillmrI1hJhdwwKOveB4xa8g4FSGxc3Tz2XNmrjEYQDJ1DOSg0YLUKIOsk+3Ax53aU1hWLS8NbhSEzVZQ7JDibazRDMc5M+Ep/Fnq9rfsTb24LF703zMOWhQttc/njakEiUoBiL2hdllhs2Az/Lt4wDO0/g7XzDxg2jAfN8fodCGQYuwggWAFmbz7/dezbJ2tMK0bcz4glaCY=
+  on:
+    tags: true
+    repo: maciejtreder/awesome-angular-module
